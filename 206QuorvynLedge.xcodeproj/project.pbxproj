@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0178FC0365BE1453364D91DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3F70F0D914046918FBAF12 /* SceneDelegate.swift */; };
+		0D6891AB49B179F6CFE8EA8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECBF2867B5FEEDB24A5DBBA /* AppDelegate.swift */; };
+		1867D92C14DE680B043F61E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0B49D87F95DC5631939078 /* Main.storyboard */; };
+		2581DF7C183DA2E4F4A062B4 /* QvlArchiveRollPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AD2906ADDE49448C8F0CF6 /* QvlArchiveRollPane.swift */; };
+		3FCD19A9163909C409C598C8 /* QvlTodayLedgePane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EDA35C06E555801D55EF75 /* QvlTodayLedgePane.swift */; };
+		47CDADB588D1E9798071B479 /* QvlProblemLeafPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509659C0A531F8F9985A8F36 /* QvlProblemLeafPane.swift */; };
+		582EBFF9B46ABD53AD6DDB5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D663CA4B52B5E6832A9D1CAA /* ContentView.swift */; };
+		74CF86B40CAFDACE3949E99A /* QvlPreferencePane.swift in Sources */ = {isa = PBXBuildFile; fileRef = D297BED8795F51B7D88FD463 /* QvlPreferencePane.swift */; };
+		750BBF88F357B938804A6E9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85F91A90F584DA341D11519A /* Assets.xcassets */; };
+		784A0D29A54B2A76A5241467 /* QvlHoldLattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE51B44655F96DCF7A2BB0B /* QvlHoldLattice.swift */; };
+		7A9E9C16A528BE435B905F35 /* QvlParchmentGate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F6790A001E967935BA9682 /* QvlParchmentGate.swift */; };
+		90A1F030A4759A03DC4317CE /* QvlEntryFoldPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3071F701AE62E835199D0D /* QvlEntryFoldPane.swift */; };
+		95FE7E7F901A1DF6CDD979AD /* QvlWeekLoadPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE9D33FCC5242A67FFD1E38 /* QvlWeekLoadPane.swift */; };
+		9872B73DFEE010B5644AC79B /* QvlSessionLeafPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DCFFFE30BFEFF07696F57D /* QvlSessionLeafPane.swift */; };
+		9AE1211EB16DF6B8789BE91D /* QvlWarmupCircuitPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466C822252C2A88FA1518C09 /* QvlWarmupCircuitPane.swift */; };
+		A4E177660B38B0296DA3B075 /* QvlChromaKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1925E5AF44EA97CC723203 /* QvlChromaKit.swift */; };
+		A8BE1C5811A0C2E853863ED6 /* QvlDockShell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E39ED13BFD74D46C66E5F81 /* QvlDockShell.swift */; };
+		AD13C0BDD20BF00C5B4CDE1E /* QvlProblemCabinetPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301776B8EEDF27AE3217A0FF /* QvlProblemCabinetPane.swift */; };
+		C3B851FB4378EE38485FCE14 /* QvlSessionForgePane.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34A8F8C95D00FF727EBFBDF /* QvlSessionForgePane.swift */; };
+		CD30B7EF550D2102E0A7A339 /* QvlLedgerVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E05EEEBC93D23E5A2983E34 /* QvlLedgerVault.swift */; };
+		F772A1028466574A5C3B07C2 /* QvlAscentModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE7D3C1F276CF5716A0A0B6 /* QvlAscentModels.swift */; };
+		FC09832E52D9C15A4E1C5154 /* QvlCrimpWeave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04514C8F42CDB376ADFF0DA4 /* QvlCrimpWeave.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04514C8F42CDB376ADFF0DA4 /* QvlCrimpWeave.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QvlCrimpWeave.swift; sourceTree = "<group>"; };
+		301776B8EEDF27AE3217A0FF /* QvlProblemCabinetPane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QvlProblemCabinetPane.swift; sourceTree = "<group>"; };
+		33F6790A001E967935BA9682 /* QvlParchmentGate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QvlParchmentGate.swift; sourceTree = "<group>"; };
+		466C822252C2A88FA1518C09 /* QvlWarmupCircuitPane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QvlWarmupCircuitPane.swift; sourceTree = "<group>"; };
+		4E05EEEBC93D23E5A2983E34 /* QvlLedgerVault.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QvlLedgerVault.swift; sourceTree = "<group>"; };
+		4E39ED13BFD74D46C66E5F81 /* QvlDockShell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QvlDockShell.swift; sourceTree = "<group>"; };
+		509659C0A531F8F9985A8F36 /* QvlProblemLeafPane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QvlProblemLeafPane.swift; sourceTree = "<group>"; };
+		52EDA35C06E555801D55EF75 /* QvlTodayLedgePane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QvlTodayLedgePane.swift; sourceTree = "<group>"; };
+		6EE51B44655F96DCF7A2BB0B /* QvlHoldLattice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QvlHoldLattice.swift; sourceTree = "<group>"; };
+		73144ED99176EE7BE86B2791 /* Pods-206QuorvynLedge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-206QuorvynLedge.debug.xcconfig"; path = "Target Support Files/Pods-206QuorvynLedge/Pods-206QuorvynLedge.debug.xcconfig"; sourceTree = "<group>"; };
+		85F91A90F584DA341D11519A /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E3071F701AE62E835199D0D /* QvlEntryFoldPane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QvlEntryFoldPane.swift; sourceTree = "<group>"; };
+		8ECBF2867B5FEEDB24A5DBBA /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC0B49D87F95DC5631939078 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AFE7D3C1F276CF5716A0A0B6 /* QvlAscentModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QvlAscentModels.swift; sourceTree = "<group>"; };
+		B34A8F8C95D00FF727EBFBDF /* QvlSessionForgePane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QvlSessionForgePane.swift; sourceTree = "<group>"; };
+		BBCE5593ED57568714ACBADE /* Pods-206QuorvynLedge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-206QuorvynLedge.release.xcconfig"; path = "Target Support Files/Pods-206QuorvynLedge/Pods-206QuorvynLedge.release.xcconfig"; sourceTree = "<group>"; };
+		BD1925E5AF44EA97CC723203 /* QvlChromaKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QvlChromaKit.swift; sourceTree = "<group>"; };
+		C0DCFFFE30BFEFF07696F57D /* QvlSessionLeafPane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QvlSessionLeafPane.swift; sourceTree = "<group>"; };
+		C1AD2906ADDE49448C8F0CF6 /* QvlArchiveRollPane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QvlArchiveRollPane.swift; sourceTree = "<group>"; };
+		D297BED8795F51B7D88FD463 /* QvlPreferencePane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QvlPreferencePane.swift; sourceTree = "<group>"; };
+		D663CA4B52B5E6832A9D1CAA /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DD3F70F0D914046918FBAF12 /* SceneDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DDE9D33FCC5242A67FFD1E38 /* QvlWeekLoadPane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QvlWeekLoadPane.swift; sourceTree = "<group>"; };
+		FDF37FC0BD77D230C2196782 /* 206QuorvynLedge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 206QuorvynLedge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		535366F4088614624D346FA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16B1E3D97ABC914533A96509 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				AC0B49D87F95DC5631939078 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		32BA70BEDB6FCD503D14DE9C = {
+			isa = PBXGroup;
+			children = (
+				D13B63394AFF48986C22A9AA /* Products */,
+				DF847B67C48F9304A4AE8C82 /* Frameworks */,
+				833D5E0AD04B191365313FA5 /* 206QuorvynLedge */,
+				95CF551D1A60631B8CC9011F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		3907197EDB60E2D854EAA893 /* Warmup */ = {
+			isa = PBXGroup;
+			children = (
+				466C822252C2A88FA1518C09 /* QvlWarmupCircuitPane.swift */,
+			);
+			path = Warmup;
+			sourceTree = "<group>";
+		};
+		513FFCAE50541EDFD2A4C7BA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8ECBF2867B5FEEDB24A5DBBA /* AppDelegate.swift */,
+				DD3F70F0D914046918FBAF12 /* SceneDelegate.swift */,
+				16B1E3D97ABC914533A96509 /* Base.lproj */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5246063943B59110551CA0BD /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				96C86DA41DAAF528716CFC8F /* Preferences */,
+				F5670F828434C7EF0690D6AA /* Week */,
+				5285B14542119C45CDEEBDA3 /* Archive */,
+				742AA0EB219069115C6645B0 /* Today */,
+				B0B991BBEAE7383406337999 /* Shell */,
+				DB669C7F4F795E943631F2AA /* Cabinet */,
+				D663CA4B52B5E6832A9D1CAA /* ContentView.swift */,
+				3907197EDB60E2D854EAA893 /* Warmup */,
+				E93379E7608A746B870D60B5 /* Onboarding */,
+				588CED10E1670E84E0998EB3 /* Session */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		5285B14542119C45CDEEBDA3 /* Archive */ = {
+			isa = PBXGroup;
+			children = (
+				C1AD2906ADDE49448C8F0CF6 /* QvlArchiveRollPane.swift */,
+			);
+			path = Archive;
+			sourceTree = "<group>";
+		};
+		588CED10E1670E84E0998EB3 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				B34A8F8C95D00FF727EBFBDF /* QvlSessionForgePane.swift */,
+				C0DCFFFE30BFEFF07696F57D /* QvlSessionLeafPane.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		742AA0EB219069115C6645B0 /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				52EDA35C06E555801D55EF75 /* QvlTodayLedgePane.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		833D5E0AD04B191365313FA5 /* 206QuorvynLedge */ = {
+			isa = PBXGroup;
+			children = (
+				513FFCAE50541EDFD2A4C7BA /* App */,
+				FE110393ADAED8ECE083649F /* Storage */,
+				5246063943B59110551CA0BD /* Screens */,
+				F6F49D7BD4D47BB21D7C6943 /* Theme */,
+				B86DDC8B05D4286024351D10 /* Gate */,
+				EBCD7C0CBEB4CE022E5CB580 /* Domain */,
+				E329851804C3E513537348C6 /* Resources */,
+			);
+			path = 206QuorvynLedge;
+			sourceTree = "<group>";
+		};
+		95CF551D1A60631B8CC9011F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBCE5593ED57568714ACBADE /* Pods-206QuorvynLedge.release.xcconfig */,
+				73144ED99176EE7BE86B2791 /* Pods-206QuorvynLedge.debug.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		96C86DA41DAAF528716CFC8F /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				D297BED8795F51B7D88FD463 /* QvlPreferencePane.swift */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		B0B991BBEAE7383406337999 /* Shell */ = {
+			isa = PBXGroup;
+			children = (
+				4E39ED13BFD74D46C66E5F81 /* QvlDockShell.swift */,
+			);
+			path = Shell;
+			sourceTree = "<group>";
+		};
+		B86DDC8B05D4286024351D10 /* Gate */ = {
+			isa = PBXGroup;
+			children = (
+				33F6790A001E967935BA9682 /* QvlParchmentGate.swift */,
+			);
+			path = Gate;
+			sourceTree = "<group>";
+		};
+		CBF844FAC0192E300B2ABF1C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D13B63394AFF48986C22A9AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDF37FC0BD77D230C2196782 /* 206QuorvynLedge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB669C7F4F795E943631F2AA /* Cabinet */ = {
+			isa = PBXGroup;
+			children = (
+				301776B8EEDF27AE3217A0FF /* QvlProblemCabinetPane.swift */,
+				509659C0A531F8F9985A8F36 /* QvlProblemLeafPane.swift */,
+			);
+			path = Cabinet;
+			sourceTree = "<group>";
+		};
+		DF847B67C48F9304A4AE8C82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBF844FAC0192E300B2ABF1C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E329851804C3E513537348C6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				85F91A90F584DA341D11519A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E93379E7608A746B870D60B5 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				8E3071F701AE62E835199D0D /* QvlEntryFoldPane.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		EBCD7C0CBEB4CE022E5CB580 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				AFE7D3C1F276CF5716A0A0B6 /* QvlAscentModels.swift */,
+				6EE51B44655F96DCF7A2BB0B /* QvlHoldLattice.swift */,
+				04514C8F42CDB376ADFF0DA4 /* QvlCrimpWeave.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		F5670F828434C7EF0690D6AA /* Week */ = {
+			isa = PBXGroup;
+			children = (
+				DDE9D33FCC5242A67FFD1E38 /* QvlWeekLoadPane.swift */,
+			);
+			path = Week;
+			sourceTree = "<group>";
+		};
+		F6F49D7BD4D47BB21D7C6943 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				BD1925E5AF44EA97CC723203 /* QvlChromaKit.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		FE110393ADAED8ECE083649F /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				4E05EEEBC93D23E5A2983E34 /* QvlLedgerVault.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13EA40CC5AD7A06E7EFDD905 /* 206QuorvynLedge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B741C30FA23F5A3908D0C47F /* Build configuration list for PBXNativeTarget "206QuorvynLedge" */;
+			buildPhases = (
+				06B25AED2D63ABC9C4862AA7 /* [CP] Check Pods Manifest.lock */,
+				EEA10059DA682F40D1947C04 /* Sources */,
+				535366F4088614624D346FA3 /* Frameworks */,
+				0DDCBB65594AA7913779CC85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 206QuorvynLedge;
+			productName = 206QuorvynLedge;
+			productReference = FDF37FC0BD77D230C2196782 /* 206QuorvynLedge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5681E3B15BD85811EE37FDE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 048D4E9EFEDD0149C34E416B /* Build configuration list for PBXProject "206QuorvynLedge" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32BA70BEDB6FCD503D14DE9C;
+			productRefGroup = D13B63394AFF48986C22A9AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13EA40CC5AD7A06E7EFDD905 /* 206QuorvynLedge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DDCBB65594AA7913779CC85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1867D92C14DE680B043F61E2 /* Main.storyboard in Resources */,
+				750BBF88F357B938804A6E9B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06B25AED2D63ABC9C4862AA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-206QuorvynLedge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEA10059DA682F40D1947C04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D6891AB49B179F6CFE8EA8D /* AppDelegate.swift in Sources */,
+				0178FC0365BE1453364D91DF /* SceneDelegate.swift in Sources */,
+				CD30B7EF550D2102E0A7A339 /* QvlLedgerVault.swift in Sources */,
+				74CF86B40CAFDACE3949E99A /* QvlPreferencePane.swift in Sources */,
+				95FE7E7F901A1DF6CDD979AD /* QvlWeekLoadPane.swift in Sources */,
+				2581DF7C183DA2E4F4A062B4 /* QvlArchiveRollPane.swift in Sources */,
+				3FCD19A9163909C409C598C8 /* QvlTodayLedgePane.swift in Sources */,
+				A8BE1C5811A0C2E853863ED6 /* QvlDockShell.swift in Sources */,
+				AD13C0BDD20BF00C5B4CDE1E /* QvlProblemCabinetPane.swift in Sources */,
+				47CDADB588D1E9798071B479 /* QvlProblemLeafPane.swift in Sources */,
+				582EBFF9B46ABD53AD6DDB5B /* ContentView.swift in Sources */,
+				9AE1211EB16DF6B8789BE91D /* QvlWarmupCircuitPane.swift in Sources */,
+				90A1F030A4759A03DC4317CE /* QvlEntryFoldPane.swift in Sources */,
+				C3B851FB4378EE38485FCE14 /* QvlSessionForgePane.swift in Sources */,
+				9872B73DFEE010B5644AC79B /* QvlSessionLeafPane.swift in Sources */,
+				A4E177660B38B0296DA3B075 /* QvlChromaKit.swift in Sources */,
+				7A9E9C16A528BE435B905F35 /* QvlParchmentGate.swift in Sources */,
+				F772A1028466574A5C3B07C2 /* QvlAscentModels.swift in Sources */,
+				784A0D29A54B2A76A5241467 /* QvlHoldLattice.swift in Sources */,
+				FC09832E52D9C15A4E1C5154 /* QvlCrimpWeave.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5F9B5E41E4805D3720616E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73144ED99176EE7BE86B2791 /* Pods-206QuorvynLedge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 206QuorvynLedge/App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sportyng&Climb";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tre.sp0rt7ngcl4mb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DF52F18E505AEDA59FC86468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBCE5593ED57568714ACBADE /* Pods-206QuorvynLedge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 206QuorvynLedge/App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sportyng&Climb";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tre.sp0rt7ngcl4mb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8A6EB7DD8B0132E31595B0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FF405012DFBD55E13810A4D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048D4E9EFEDD0149C34E416B /* Build configuration list for PBXProject "206QuorvynLedge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8A6EB7DD8B0132E31595B0E /* Debug */,
+				FF405012DFBD55E13810A4D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B741C30FA23F5A3908D0C47F /* Build configuration list for PBXNativeTarget "206QuorvynLedge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF52F18E505AEDA59FC86468 /* Release */,
+				5F9B5E41E4805D3720616E5E /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5681E3B15BD85811EE37FDE3 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_206QuorvynLedge {
+  umbrella header "Pods-206QuorvynLedge-umbrella.h"
+
+  export *
+  module * { export * }
+}
